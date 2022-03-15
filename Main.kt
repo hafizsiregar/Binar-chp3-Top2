@@ -49,6 +49,13 @@ fun main() = try {
         }
 
         "g" -> {
+            print("Masukan Sisi Atas :")
+            val sisiAtas = readLine()!!.toInt()
+            print("Masukan Sisi Bawah :")
+            val sisiBawah = readLine()!!.toInt()
+            print("Masukan tinggi :")
+            val tinggiTrapesium = readLine()!!.toInt()
+            print("Luas Trapesium = ${((sisiAtas+sisiBawah)*tinggiTrapesium)/2}")
             //Hitung Trapesium
         }
 
