@@ -16,6 +16,11 @@ fun main() = try {
         }
 
         "b" -> {
+            print("Masukan Panjang :")
+            val panjangPersegi = readLine()!!.toInt()
+            print("Masukan Lebar :")
+            val lebarPersegi = readLine()!!.toInt()
+            print("Luas Persegi Panjang = ${panjangPersegi * lebarPersegi}")
             //Hitung Persegi Panjang
         }
 
