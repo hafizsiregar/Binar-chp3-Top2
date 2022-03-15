@@ -9,6 +9,9 @@ fun main() = try {
     ) //update the master
     when (readLine()) {
         "a" -> {
+            print("Masukan Sisi :")
+            val sisiPersegi = readLine()!!.toInt()
+            print("Luas Persegi = ${sisiPersegi * sisiPersegi}")
             //Hitung Persegi
         }
 
