@@ -18,6 +18,11 @@ fun main() = try {
 
         "c" -> {
             //Hitung Segitiga
+            print("Masukan Tinggi :")
+            val tinggiSegitiga = readLine()!!.toInt()
+            print("Masukan Alas :")
+            val alasSegitiga = readLine()!!.toInt()
+            print("Luas Segitiga = ${(tinggiSegitiga*alasSegitiga)/2}")
         }
 
         "d" -> {
