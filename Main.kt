@@ -35,6 +35,12 @@ fun main() = try {
 
         "f" -> {
             //Hitung Belah Ketupat
+            print("Masukan D1 :")
+            val diagonal1 = readLine()!!.toInt()
+            print("Masukan D2 :")
+            val diagonal2 = readLine()!!.toInt()
+            print("Luas Belah Ketupat = ${(diagonal1*diagonal2)/2}")
+            //Hitung Belah Ketupat
         }
 
         "g" -> {
