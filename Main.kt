@@ -53,6 +53,11 @@ fun main() = try {
         }
 
         "h" -> {
+            print("Masukan D1 :")
+            val diagonal1 = readLine()!!.toInt()
+            print("Masukan D2 :")
+            val diagonal2 = readLine()!!.toInt()
+            print("Luas Layang Layang = ${(diagonal1*diagonal2)/2}")
             //Hitung Layang Layang
         }
 
