@@ -26,6 +26,9 @@ fun main() = try {
         }
 
         "d" -> {
+            print("Masukan Jari Jari :")
+            val jariJariLingkaran = readLine()!!.toDouble()
+            print("Luas Lingkaran = ${(jariJariLingkaran * jariJariLingkaran) * 3.14}")
             //Hitung Lingkaran
         }
 
