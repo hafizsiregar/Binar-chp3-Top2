@@ -31,6 +31,11 @@ fun main() = try {
 
         "e" -> {
             //Hitung Jajar Genjang
+            print("Masukan Tinggi :")
+            val tinggiJajarGenjang = readLine()!!.toInt()
+            print("Masukan Alas :")
+            val alasJajarGenjang = readLine()!!.toInt()
+            print("Luas Jajar Genjang = ${(tinggiJajarGenjang*alasJajarGenjang)}")
         }
 
         "f" -> {
