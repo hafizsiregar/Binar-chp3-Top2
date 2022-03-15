@@ -9,6 +9,9 @@ fun main() = try {
     ) //update the master
     when (readLine()) {
         "a" -> {
+            print("Masukan Sisi :")
+            val sisiPersegi = readLine()!!.toInt()
+            print("Luas Persegi = ${sisiPersegi * sisiPersegi}")
             //Hitung Persegi
         }
 
@@ -18,56 +21,25 @@ fun main() = try {
 
         "c" -> {
             //Hitung Segitiga
-            print("Masukan Tinggi :")
-            val tinggiSegitiga = readLine()!!.toInt()
-            print("Masukan Alas :")
-            val alasSegitiga = readLine()!!.toInt()
-            print("Luas Segitiga = ${(tinggiSegitiga*alasSegitiga)/2}")
         }
 
         "d" -> {
-            print("Masukan Jari Jari :")
-            val jariJariLingkaran = readLine()!!.toDouble()
-            print("Luas Lingkaran = ${(jariJariLingkaran * jariJariLingkaran) * 3.14}")
             //Hitung Lingkaran
         }
 
         "e" -> {
             //Hitung Jajar Genjang
-            print("Masukan Tinggi :")
-            val tinggiJajarGenjang = readLine()!!.toInt()
-            print("Masukan Alas :")
-            val alasJajarGenjang = readLine()!!.toInt()
-            print("Luas Jajar Genjang = ${(tinggiJajarGenjang*alasJajarGenjang)}")
         }
 
         "f" -> {
             //Hitung Belah Ketupat
-            print("Masukan D1 :")
-            val diagonal1 = readLine()!!.toInt()
-            print("Masukan D2 :")
-            val diagonal2 = readLine()!!.toInt()
-            print("Luas Belah Ketupat = ${(diagonal1*diagonal2)/2}")
-            //Hitung Belah Ketupat
         }
 
         "g" -> {
-            print("Masukan Sisi Atas :")
-            val sisiAtas = readLine()!!.toInt()
-            print("Masukan Sisi Bawah :")
-            val sisiBawah = readLine()!!.toInt()
-            print("Masukan tinggi :")
-            val tinggiTrapesium = readLine()!!.toInt()
-            print("Luas Trapesium = ${((sisiAtas+sisiBawah)*tinggiTrapesium)/2}")
             //Hitung Trapesium
         }
 
         "h" -> {
-            print("Masukan D1 :")
-            val diagonal1 = readLine()!!.toInt()
-            print("Masukan D2 :")
-            val diagonal2 = readLine()!!.toInt()
-            print("Luas Layang Layang = ${(diagonal1*diagonal2)/2}")
             //Hitung Layang Layang
         }
 
